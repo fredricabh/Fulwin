@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 import os
-
 os.system('DOSKEY clear=CLS & DOSKEY cp=COPY & DOSKEY ls=DIR & DOSKEY rm=DEL')
-
 def printRed(clr):
 	print("\033[91m {}\033[00m" .format(clr)) 
 def printYellow(clr):
